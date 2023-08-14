@@ -5,9 +5,8 @@ const styles = {
   infoBox: "flex flex-col",
   userInfoBox: " flex flex-row items-center justify-items-start",
   avatar: " w-4 h-4 rounded-lg",
-  imgName:" text-sm leading-5 font-[Lato] font-bold"
+  imgName: " text-sm leading-5 font-[Lato] font-bold",
 };
-
 function NftBox() {
   return (
     <div className={styles.container}>
