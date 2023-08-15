@@ -1,32 +1,36 @@
 const styles = {
   container:
-    "flex flex-col items-center h-90 w-56 border rounded-xl  border-stone-800 ",
+    "flex flex-col justify-start h-90 w-56 border rounded-xl  border-grey-300  ",
   nftImg: "w-56 h-56 p-1.5 rounded-lg ",
-  infoBox: "flex flex-col",
-  userInfoBox: " flex flex-row items-center justify-items-start",
-  avatar: " w-4 h-4 rounded-lg",
-  imgName: " text-sm leading-5 font-[Lato] font-bold",
+  infoBox: "	",
+  userInfoBox: " flex flex-row justify-items-start",
+  // userInfoBox: " grid grid-cols-2 justify-items-start",
+  avatar: "mx-3 w-4 h-4 rounded-lg",
+  imgName: "  leading-5 font-[Lato] font-bold",
+  userName:"text-xs font-[Lato] font-bold"
 };
-function NftBox() {
+
+const NftBox = ({data}) => {
+  const {img,imgName,avatar,userName} = data
   return (
     <div className={styles.container}>
       <img
         className={styles.nftImg}
-        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+        src={img}
       />
       <div className={styles.infoBox}>
-        <p className={styles.imgName}>WIZARD 777</p>
+        <p className={styles.imgName}>{imgName}</p>
         <div className={styles.userInfoBox}>
           <img
             className={styles.avatar}
-            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+            src={avatar}
             alt="Rounded avatar"
           />
-          <p>some name</p>
+          <p className={userName}>{userName}</p>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default NftBox;

@@ -1,15 +1,30 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { NavBar } from "./modules/NavBar";
-import { Login } from "./modules/Login";
-import { UserAccount } from "./modules/UserAccount";
+import LoginPage from "./pages/Login";
+import HomePage from "./pages/HomePage";
+import ErrorPage from "./pages/Errorpage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
+  {
+    path: "*",
+    element: <ErrorPage />,
+  },
+]);
 
 function App() {
-  const state = true;
-
   return (
     <>
-      <NavBar props={state}/>
-      {state ? <Login /> : <UserAccount/>}
+      <NavBar />
+      <RouterProvider router={router} />
     </>
   );
 }
