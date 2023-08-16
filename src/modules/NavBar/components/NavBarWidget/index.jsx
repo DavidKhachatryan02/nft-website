@@ -1,4 +1,3 @@
-import React from "react";
 import NavBarIcon from "../NavBarIcon";
 import NavBarButton from "../NavBarButton";
 import NabBarDropdown from "../NavBarDropdown";
@@ -10,8 +9,10 @@ const styles = {
 };
 
 function NavBarWidget() {
+
   const { accessToken } = useAuth();
   return (
+    <div data-testid="navbar">
     <nav className={styles.navBar}>
       <NavBarIcon />
       {accessToken ? (
@@ -20,6 +21,7 @@ function NavBarWidget() {
         <NavBarButton>some item</NavBarButton>
       )}
     </nav>
+    </div>
   );
 }
 
