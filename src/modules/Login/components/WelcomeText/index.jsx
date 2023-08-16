@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   welcomeText: "text-2xl font-bold	leading-8 font-[Lato]",
-  message: "text-sm leading-5 font-[Lato] font-bold text-[#637282]", //!check this part of the code
+  message: "text-sm leading-5 font-[Lato] font-bold text-[#637282]",
 };
 
 function WelcomeText() {
