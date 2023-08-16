@@ -1,5 +1,5 @@
 const styles = {
-  container: "flex items-center gap-x-3",
+  container: "flex items-center gap-x-3 ",
   text: "font-extrabold text-xl leading-8",
 };
 

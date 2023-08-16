@@ -6,7 +6,7 @@ import { useAuth } from "../../../../provider";
 
 const styles = {
   navBar:
-    " w-fulls flex flex-row justify-between h-10 px-7 py-8 border-b  border-{GREY_LIGHT}",
+    " w-fulls flex flex-row justify-between px-7 py-2.5 border-b  border-grey-600" ,
 };
 
 function NavBarWidget() {
