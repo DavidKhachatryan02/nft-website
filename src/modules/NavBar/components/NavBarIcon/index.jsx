@@ -3,10 +3,12 @@ const styles = {
   text: "font-extrabold text-xl leading-8",
 };
 
+const icon = "src/assets/Icon.svg";
+
 function NavBarIcon() {
   return (
     <div className={styles.container}>
-      <img src="src/assets/Icon.svg" alt="Some Logo" />
+      <img src={icon} alt="Some Logo" />
       <p className={styles.text}>NFTer</p>
     </div>
   );

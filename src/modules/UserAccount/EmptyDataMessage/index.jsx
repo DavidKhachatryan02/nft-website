@@ -3,9 +3,11 @@ const styles = {
   message: "font-bold font-[Lato] leading-6	text-gray-700	",
 };
 
+const SadFace = "src/assets/SadFace.svg"
+
 const EmptyDataMessage = () => (
   <div className={styles.container}>
-    <img src="src/assets/SadFace.svg" alt="" />
+    <img src={SadFace} alt="" />
     <p className={styles.message}>
       Unfortunately your wallet does not own any NFTs.
     </p>
