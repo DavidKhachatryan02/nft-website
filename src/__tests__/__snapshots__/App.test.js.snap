@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App component 1`] = `
+[
+  <div
+    data-testid="navbar"
+  >
+    <nav
+      className="w-fulls flex flex-row justify-between px-7 py-2.5 border-b border-grey-600"
+    >
+      <div
+        className="flex items-center gap-x-3 "
+      >
+        <img
+          alt="Some Logo"
+        />
+        <p
+          className="font-extrabold text-xl leading-8"
+        >
+          NFTer
+        </p>
+      </div>
+      <div
+        className="flex items-center"
+      >
+        <button
+          className="bg-[#4A5EC4] px-5 py-2 rounded-lg text-gray-50 font-bold font-[Lato] cursor-pointer"
+          onClick={[Function]}
+        >
+          Connect
+        </button>
+      </div>
+    </nav>
+  </div>,
+  <div
+    className="text-left mx-auto mt-10 lg:w-[70%] md:w-[50%] sm:w-full place-items-center flex flex-col content-center items-center  2xl:grid   2xl:grid-cols-5 lg:grid lg:grid-cols-3 lg:gap-y-2.5 md:grid md:grid-cols-2 md:gap-2 "
+  >
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  "
+    >
+      <img
+        className="w-56 h-56 px-2 pt-2 rounded-2xl "
+        src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+      />
+      <div>
+        <p
+          className="text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold "
+        >
+          WIZARD 777
+        </p>
+        <div
+          className=" flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]"
+        >
+          <img
+            alt="Rounded avatar"
+            className="ml-5 mr-2 w-5 h-5 rounded-md "
+            src="src/assets/7655cf5ac66f5d715acfb0e918593e27.png"
+          />
+          <p
+            className="some name"
+          >
+            some name
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
