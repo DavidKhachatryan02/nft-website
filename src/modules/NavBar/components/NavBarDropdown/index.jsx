@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../../../../hooks';
 
 import ProfileImage from '../../../../assets/ProflePhoto.png';
-import DropDownIcon from '../../../../assets/ExplorerIcon.svg';
+import DropDownIcon from '../../../../assets/dropdownPointer.svg';
 import LogoutIcon from '../../../../assets/LogoutIcon.svg';
 
 const styles = {
