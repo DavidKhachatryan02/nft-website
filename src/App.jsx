@@ -1,32 +1,15 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./App.css";
-import { NavBar } from "./modules/NavBar";
-import LoginPage from "./pages/Login";
-import HomePage from "./pages/HomePage";
-import ErrorPage from "./pages/Errorpage";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { ROOT_ROUTES } from './constants/routes.jsx';
+import { AuthProvider } from './provider';
+import { NavBar } from './modules/NavBar/index.js';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-  },
-  {
-    path: "/login",
-    element: <LoginPage />,
-  },
-  {
-    path: "*",
-    element: <ErrorPage />,
-  },
-]);
+const router = createBrowserRouter(ROOT_ROUTES);
 
-function App() {
-  return (
-    <>
-      <NavBar />
-      <RouterProvider router={router} />
-    </>
-  );
-}
+const App = () => (
+  <AuthProvider>
+    <NavBar />
+    <RouterProvider router={router} />
+  </AuthProvider>
+);
 
 export default App;

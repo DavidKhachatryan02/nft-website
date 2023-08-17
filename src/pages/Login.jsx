@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom";
-import { Login } from "../modules/Login";
-import { useAuth } from "../provider";
-import { useEffect } from "react";
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../hooks';
+import { Login } from '../modules/Login/index.js';
 
 const LoginPage = () => {
   const { accessToken } = useAuth();
@@ -9,8 +9,8 @@ const LoginPage = () => {
 
   useEffect(() => {
     if (accessToken) {
-      navigate("/");
-    }  
+      navigate('/');
+    }
   }, [accessToken]);
 
   return <Login />;

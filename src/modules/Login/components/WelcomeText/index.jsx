@@ -1,11 +1,9 @@
-import React from "react";
-
 const styles = {
-  welcomeText: "text-2xl font-bold	leading-8 font-[Lato]",
-  message: "text-sm leading-5 font-[Lato] font-bold text-[#637282]",
+  welcomeText: 'text-2xl font-bold	leading-8 font-[Lato]',
+  message: 'text-sm leading-5 font-[Lato] font-bold text-[#637282]',
 };
 
-function WelcomeText() {
+const WelcomeText = () => {
   return (
     <>
       <p className={styles.welcomeText}>Welcome</p>
@@ -14,6 +12,6 @@ function WelcomeText() {
       </p>
     </>
   );
-}
+};
 
 export default WelcomeText;

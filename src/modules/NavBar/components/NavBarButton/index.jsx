@@ -1,4 +1,4 @@
-import { useAuth } from "../../../../provider";
+import { useAuth } from "../../../../hooks";
 
 const styles = {
   container: "flex items-center",
@@ -6,7 +6,7 @@ const styles = {
     "bg-[#4A5EC4] px-5 py-2 rounded-lg text-gray-50 font-bold font-[Lato] cursor-pointer",
 };
 
-function NavBarButton() {
+const NavBarButton = () => {
   const { login } = useAuth();
 
   return (

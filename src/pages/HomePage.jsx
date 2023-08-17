@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { UserAccount } from "../modules/UserAccount";
-import { useAuth } from "../provider";
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../hooks';
+import { UserAccount } from '../modules/UserAccount/index.js';
 
 const HomePage = () => {
   const { accessToken } = useAuth();
@@ -9,7 +9,7 @@ const HomePage = () => {
 
   useEffect(() => {
     if (!accessToken) {
-      navigate("/login");
+      navigate('/login');
     }
   }, [accessToken]);
 
