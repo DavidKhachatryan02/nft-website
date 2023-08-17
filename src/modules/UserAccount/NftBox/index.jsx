@@ -3,9 +3,9 @@ const styles = {
     "flex  flex-col justify-start border min-w-60 rounded-xl  border-grey-300  ",
   nftImg: "w-56 h-56 px-2 pt-2 rounded-2xl ",
   userInfoBox: " flex flex-row  items-center pb-6 pt-1.5 text-[#4A5EC4]",
-  imgName: "text-[16px] pl-5 pt-3 leading-5 font-[Lato] font-bold ",
+  imgName: " pl-5 pt-3 font-[Lato] text-neutral-800 font-bold",
   avatar: "ml-5 mr-2 w-5 h-5 rounded-md ",
-  userName: " text-[12px] font-[Lato] font-light 	",
+  userName: "text-indigo-700 text-xs font-bold leading-none",
 };
 
 const NftBox = ({ data }) => {

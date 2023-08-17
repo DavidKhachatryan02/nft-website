@@ -48,7 +48,7 @@ const nftData = [
 
 const styles = {
   container:
-    "relative text-left mx-auto mt-10 lg:w-[70%] md:w-[50%] sm:w-full place-items-center flex flex-col content-center items-center  2xl:grid   2xl:grid-cols-5 lg:grid lg:grid-cols-3 lg:gap-y-2.5 md:grid md:grid-cols-2 md:gap-2 ",
+    "relative text-left mx-auto mt-10 lg:w-[70%] md:w-[50%] sm:w-full place-items-center flex flex-col content-center items-center  2xl:grid   2xl:grid-cols-5 lg:grid lg:grid-cols-4 lg:gap-y-2.5 md:grid md:grid-cols-2 md:gap-2 ",
 };
 
 const AccountWidget = () => {
